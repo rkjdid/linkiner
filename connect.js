@@ -1,6 +1,6 @@
 setInterval(function() {
   var connectBtns = document.getElementsByClassName("mn-person-card__person-btn-ext");
-  if connectBtns.length < 10 {
+  if (connectBtns.length < 10) {
     // scroll bottom to trigger ajax call filling the list
     window.scrollTo(0, document.body.scrollHeight);
   }
